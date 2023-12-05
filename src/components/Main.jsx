@@ -1,6 +1,8 @@
 import { React } from "react";
 import profile from "../pictures/profile.JPG"
 
+const currentTime = new Date().getHours();
+
 function Main() {
     return (
         <div className="container col-xxl-8 px-4 py-5 gradient-background">
@@ -9,8 +11,9 @@ function Main() {
             <img src={profile} className="profilepic" alt="Profile Pic" />
           </div>
           <div className="col-sm-12 col-md-12 col-lg-6">
+            {currentTime < 12 ? <h2 className="lead">Good morning, I am</h2> : <h2 className="lead">Hello, I am</h2>}
             <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">THIAGO LANES</h1>
-            <p className="lead">Front-End developer</p>
+            <p className="lead">(Front-End developer)</p>
           </div>
         </div>
       </div>
