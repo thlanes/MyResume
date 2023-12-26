@@ -2,16 +2,12 @@ import { React } from "react";
 
 function Card(props) {
     return (
-        <div>
-            <div>
-                <h2>{props.position}</h2>
-                <h3>{props.company}</h3>
+        <div class="resume-item">
+              <h4>{props.position}</h4>
+              <p><em>{props.company}</em></p>
+              <p>{props.details}</p>
+
             </div>
-            <div>
-                <p>{props.details}</p>
-            </div>
-            <br />
-        </div>
     );
 }
 
