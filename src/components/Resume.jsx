@@ -1,6 +1,6 @@
 import { React } from "react";
 import Card from "./Card";
-import resumeDetails from "../resumeDetails";
+import resumeExperience from "../resumeExperience";
 
 
 function Resume() {
@@ -8,11 +8,11 @@ function Resume() {
         <div className="container">
             <h1>Professional Experience</h1>
             <br />
-            {resumeDetails.map(resumeDetails => (<Card
-        key={resumeDetails.id} 
-        position={resumeDetails.position}
-        company={resumeDetails.company}
-        details={resumeDetails.details}
+            {resumeExperience.map(resumeExperience => (<Card
+        key={resumeExperience.id} 
+        position={resumeExperience.position}
+        company={resumeExperience.company}
+        details={resumeExperience.details}
     />))};
 
         </div>
@@ -21,3 +21,4 @@ function Resume() {
 }
 
 export default Resume;
+
