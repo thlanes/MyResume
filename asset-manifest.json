@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/myResume/static/js/main.eaa5df1e.js",
+    "static/media/profile.JPG": "/myResume/static/media/profile.7937a3ba9ce5db11205e.JPG",
+    "static/media/react.svg": "/myResume/static/media/react.f57b349b4d9df56c9b48c916a8d5adfb.svg",
+    "static/media/nodejs.svg": "/myResume/static/media/nodejs.a7f2ccf30eed3e5878a2ba1e6be108a2.svg",
+    "static/media/bootstrap-svgrepo-com.svg": "/myResume/static/media/bootstrap-svgrepo-com.93fe84041cc1b588f15c332248529333.svg",
+    "static/media/sql-svgrepo-com.svg": "/myResume/static/media/sql-svgrepo-com.9c81c444e214ac59f3b82775061eb41c.svg",
+    "static/media/github.svg": "/myResume/static/media/github.5531be85d7a8d6f333e5c7136944a022.svg",
+    "static/media/js.svg": "/myResume/static/media/js.0866c81b3b841c647e23b8a5d991c312.svg",
+    "index.html": "/myResume/index.html",
+    "static/media/linkedin-rounded-svgrepo-com.svg": "/myResume/static/media/linkedin-rounded-svgrepo-com.a7455a3a96a01aa50c5680f8c935ad40.svg",
+    "static/media/css.svg": "/myResume/static/media/css.315b8fdb9dbf75ae965b80bf368895cd.svg",
+    "static/media/html.svg": "/myResume/static/media/html.0107c93943a8f415b5db64ebb0a9d12d.svg",
+    "main.eaa5df1e.js.map": "/myResume/static/js/main.eaa5df1e.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.eaa5df1e.js"
+  ]
+}
